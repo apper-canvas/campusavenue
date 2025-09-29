@@ -353,7 +353,6 @@ class EnrollmentService {
     }
   }
 }
-}
 
 const enrollmentService = new EnrollmentService();
 export default enrollmentService;

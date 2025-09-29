@@ -323,5 +323,3 @@ class CourseService {
 
 const courseService = new CourseService();
 export default courseService;
-
-export default new CourseService();
