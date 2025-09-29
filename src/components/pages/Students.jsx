@@ -201,10 +201,14 @@ const Students = () => {
       )
     },
     {
-      key: "gpa",
-      label: "GPA",
+key: "gpa",
+      label: "GPA", 
       sortable: true,
-      render: (gpa) => <span className="font-medium">{gpa.toFixed(2)}</span>
+      render: (gpa) => (
+        <span className="font-medium">
+          {gpa != null ? gpa.toFixed(2) : "N/A"}
+        </span>
+      )
     },
     {
       key: "credits",
