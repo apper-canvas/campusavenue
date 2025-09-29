@@ -69,16 +69,30 @@ const Sidebar = () => {
         })}
       </nav>
       
-      <div className="p-4 border-t border-gray-200">
+<div className="p-4 border-t border-gray-200">
         <div className="bg-gradient-to-r from-primary/5 to-accent/5 p-4 rounded-lg border border-primary/10">
-          <div className="flex items-center">
-            <div className="bg-gradient-to-r from-primary to-accent p-2 rounded-full">
-              <ApperIcon name="Settings" size={16} className="text-white" />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <div className="bg-gradient-to-r from-primary to-accent p-2 rounded-full">
+                <ApperIcon name="Settings" size={16} className="text-white" />
+              </div>
+              <div className="ml-3">
+                <p className="text-sm font-medium text-gray-900">System Admin</p>
+                <p className="text-xs text-secondary">Administrator</p>
+              </div>
             </div>
-            <div className="ml-3">
-              <p className="text-sm font-medium text-gray-900">System Admin</p>
-              <p className="text-xs text-secondary">Administrator</p>
-            </div>
+            <button
+              onClick={() => {
+                const { AuthContext } = window;
+                if (AuthContext?.logout) {
+                  AuthContext.logout();
+                }
+              }}
+              className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              title="Logout"
+            >
+              <ApperIcon name="LogOut" size={16} className="text-secondary" />
+            </button>
           </div>
         </div>
       </div>
