@@ -1,0 +1,202 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@email.com",
+    "phone": "(555) 123-4567",
+    "dateOfBirth": "2001-03-15",
+    "address": {
+      "street": "123 Oak Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62701"
+    },
+    "studentId": "STU00001",
+    "enrollmentDate": "2023-08-25",
+    "program": "Computer Science",
+    "academicStatus": "Active",
+    "gpa": 3.8,
+    "credits": 45
+  },
+  {
+    "Id": 2,
+    "firstName": "Michael",
+    "lastName": "Chen",
+    "email": "michael.chen@email.com",
+    "phone": "(555) 234-5678",
+    "dateOfBirth": "2000-11-22",
+    "address": {
+      "street": "456 Maple Avenue",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62702"
+    },
+    "studentId": "STU00002",
+    "enrollmentDate": "2022-08-25",
+    "program": "Business Administration",
+    "academicStatus": "Active",
+    "gpa": 3.6,
+    "credits": 78
+  },
+  {
+    "Id": 3,
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "email": "sarah.williams@email.com",
+    "phone": "(555) 345-6789",
+    "dateOfBirth": "2001-07-08",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62703"
+    },
+    "studentId": "STU00003",
+    "enrollmentDate": "2023-08-25",
+    "program": "Psychology",
+    "academicStatus": "Active",
+    "gpa": 3.9,
+    "credits": 42
+  },
+  {
+    "Id": 4,
+    "firstName": "David",
+    "lastName": "Rodriguez",
+    "email": "david.rodriguez@email.com",
+    "phone": "(555) 456-7890",
+    "dateOfBirth": "2000-12-14",
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62704"
+    },
+    "studentId": "STU00004",
+    "enrollmentDate": "2022-08-25",
+    "program": "Engineering",
+    "academicStatus": "Active",
+    "gpa": 3.7,
+    "credits": 81
+  },
+  {
+    "Id": 5,
+    "firstName": "Jessica",
+    "lastName": "Taylor",
+    "email": "jessica.taylor@email.com",
+    "phone": "(555) 567-8901",
+    "dateOfBirth": "2001-05-30",
+    "address": {
+      "street": "654 Cedar Lane",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62705"
+    },
+    "studentId": "STU00005",
+    "enrollmentDate": "2023-08-25",
+    "program": "Biology",
+    "academicStatus": "Active",
+    "gpa": 4.0,
+    "credits": 48
+  },
+  {
+    "Id": 6,
+    "firstName": "James",
+    "lastName": "Anderson",
+    "email": "james.anderson@email.com",
+    "phone": "(555) 678-9012",
+    "dateOfBirth": "2000-09-18",
+    "address": {
+      "street": "987 Birch Avenue",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62706"
+    },
+    "studentId": "STU00006",
+    "enrollmentDate": "2022-08-25",
+    "program": "Mathematics",
+    "academicStatus": "Probation",
+    "gpa": 2.8,
+    "credits": 72
+  },
+  {
+    "Id": 7,
+    "firstName": "Amanda",
+    "lastName": "Brown",
+    "email": "amanda.brown@email.com",
+    "phone": "(555) 789-0123",
+    "dateOfBirth": "2001-02-25",
+    "address": {
+      "street": "147 Spruce Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62707"
+    },
+    "studentId": "STU00007",
+    "enrollmentDate": "2023-08-25",
+    "program": "Art History",
+    "academicStatus": "Active",
+    "gpa": 3.5,
+    "credits": 39
+  },
+  {
+    "Id": 8,
+    "firstName": "Robert",
+    "lastName": "Davis",
+    "email": "robert.davis@email.com",
+    "phone": "(555) 890-1234",
+    "dateOfBirth": "2000-06-12",
+    "address": {
+      "street": "258 Willow Drive",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62708"
+    },
+    "studentId": "STU00008",
+    "enrollmentDate": "2022-08-25",
+    "program": "Chemistry",
+    "academicStatus": "Active",
+    "gpa": 3.4,
+    "credits": 75
+  },
+  {
+    "Id": 9,
+    "firstName": "Lisa",
+    "lastName": "Miller",
+    "email": "lisa.miller@email.com",
+    "phone": "(555) 901-2345",
+    "dateOfBirth": "2001-10-03",
+    "address": {
+      "street": "369 Poplar Road",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62709"
+    },
+    "studentId": "STU00009",
+    "enrollmentDate": "2023-08-25",
+    "program": "English Literature",
+    "academicStatus": "Active",
+    "gpa": 3.7,
+    "credits": 45
+  },
+  {
+    "Id": 10,
+    "firstName": "Christopher",
+    "lastName": "Wilson",
+    "email": "christopher.wilson@email.com",
+    "phone": "(555) 012-3456",
+    "dateOfBirth": "2000-04-27",
+    "address": {
+      "street": "741 Ash Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62710"
+    },
+    "studentId": "STU00010",
+    "enrollmentDate": "2022-08-25",
+    "program": "Physics",
+    "academicStatus": "Active",
+    "gpa": 3.9,
+    "credits": 84
+  }
+]
